@@ -1,0 +1,14 @@
+{
+  "require": {
+    "symfony/routing": "~4.3",
+    "symfony/http-foundation": "~4.3",
+    "symfony/http-kernel": "~4.3",
+    "symfony/templating": "~4.3",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "DeveloperTest\\": "src/"
+    }
+  }
+}
